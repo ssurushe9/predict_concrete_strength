@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONCRETE STRENGHT PREDICTION</title>
+</head>
+<body bgcolor="powderblue">
+
+    <h1>CONCRETE STRENGHT PREDICTION</h1>
+
+    <form action="/concrete_strength",method = "GET">
+        <label>cement: </label><input type="number" step="any" name="cement"><br><br>
+        <label>blast_furnace_slag: </label><input type="number" step ="any" name="blast_furnace_slag"><br><br>
+        <label>fly_ash: </label><input type="number" step= "any" name="fly_ash"><br><br>
+        <label>water: </label><input type="number" step="any" name="water"><br><br>
+        <label>superplasticizer: </label><input type="number" step="any" name="superplasticizer"><br><br>
+        <label>coarse_aggregate: </label><input type="number" step="any" name="coarse_aggregate"><br><br>
+        <label>fine_aggregate: </label><input type="number" step="any" name="fine_aggregate"><br><br>
+        <label>age: </label><input type="number" step="any" name="age"><br><br>
+
+
+
+        <input type="submit" value="Predicted_Concrete_Strength,">
+
+        <h3>{{Predicted_Concrete_Strength}} {{"psi"}}</h3>
+
+
+
+    </form>
+</body>
+</html>
