@@ -60,12 +60,12 @@ To predict concrete strength based on following parameters:
 
 2.Dataset:
 
-The dataset was downloade from kaggle website
+    The dataset was downloade from kaggle website
     ["CONCRETE_DATASET"](https://www.kaggle.com/datasets/elikplim/concrete-compressive-strength-data-set/download?datasetVersionNumber=1)
 
 3.Packages_Required:
 
-All the packages required for model building are mentioned in requirement.txt file
+    All the packages required for model building are mentioned in requirement.txt file
 
 4.Dataset_Reading:
 
@@ -103,26 +103,24 @@ All the packages required for model building are mentioned in requirement.txt fi
 
 6.API_Writing:
 
-API writing for builded model was done in VS Code with help of flask web framework, along with HTML code.
+    API writing for builded model was done in VS Code with help of flask web framework, along with HTML code.
 
-Model data required for writing api importted through pickle file
+    Model data required for writing api importted through pickle file
 
-It was then tested using Postman app.
+    It was then tested using Postman app.
 
-##
-command to run flask app in vs code:
+    command to run flask app in vs code:
 
-flask run
+    flask run
 
-or
+    or
 
-python app.py
+    python app.py
 
 7.Deployment_On_Cloud:
 
-Build model was deployed on cloud using Amazon web services's EC2 instance and Git Bash terminal
+    Build model was deployed on cloud using Amazon web services's EC2 instance and Git Bash terminal
 
-##
-command to run app in Git Bash
+    command to run app in Git Bash
 
-python3 app.py
+    python3 app.py
